@@ -1,6 +1,9 @@
 {
   "name": "notetoself",
   "version": "0.1.0",
+  "engines": {
+    "node": "8.6.0"
+  },
   "private": true,
   "dependencies": {
     "react": "^16.0.0",
@@ -13,6 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --watchAll",
+    "test:coverage": "npm test -- --coverage",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
